@@ -1,0 +1,125 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 170%;
+  line-height: 2;
+color: #40514E;
+}
+h1{
+  color: #66BFBF;
+font-family: 'Press Start 2P', cursive;
+font-size: 4.0rem;
+margin: 50px auto 0 auto;
+}
+h2{
+  color: #66BFBF;
+  font-family: 'Candal', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+h3{
+  color: #11999E;
+  font-family: 'Candal', sans-serif;
+}
+hr {
+border: dotted #EAF6F6 6px;
+border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+p{
+    line-height: 2;
+}
+a{
+  color: #11999E;
+  font-family: 'Candal', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #EAF6F6
+}
+
+.top-container{
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+
+}
+.middle-container{
+  margin: 100px 0;
+}
+
+.top-cloud{
+  position:absolute;
+  right:300px;
+  top: 100px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  right: 1200px;
+  bottom: 300px;
+
+}
+.bottom-container{
+  background-color: #66BFBF;
+    padding: 50px 0 20px;
+
+}
+.subtitle{
+  font-weight: normal;
+}
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+
+}
+.asteroid-img{
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+.skull-img{
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+}
+.myButton {
+	background:linear-gradient(to bottom, #c2eced 5%, #11999e 100%);
+	background-color:#c2eced;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Permanent Marker';
+	font-size:17px;
+	padding:17px 24px;
+	text-decoration:none;
+  margin-bottom: 20px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #c2eced 100%);
+	background-color:#11999e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copyright{
+color: #EAF6F6;
+font-size: 0.75rem;
+padding: 20px 0px;
+}
